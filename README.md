@@ -4,7 +4,7 @@
 </div>
 <hr />
  
-<!-- Contributor -->
+
 <div align="center">
   <h4>
     👤 Contributor.
