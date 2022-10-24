@@ -1,6 +1,6 @@
 <!-- Welcoming Section  -->
 <div align="center">
-
+   <img alt="App Name" src="https://i.imgur.com/V6k5DDa.pngg" width="100%"/>
 </div>
 <hr />
  
@@ -50,7 +50,9 @@
 </div>
 
 <div align="center">
-
+  <a href="https://ynoecode.github.io/tip-calculator/">
+    <img src="https://i.imgur.com/tlo5ubj.png" alt="Web Preview"/>
+  </a>
 </div>
 <br />
 
