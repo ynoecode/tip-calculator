@@ -36,7 +36,7 @@ let calculate = {
     const perPersonTotal = total / numberOfPeople
 
     // ?  
-    totalCost.innerText = perPersonTotal.toFixed(2)
+    totalCost.innerText = perPersonTotal.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
   },  
 }
 
