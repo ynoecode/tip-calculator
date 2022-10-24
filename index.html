@@ -5,42 +5,55 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Tip Calculator</title>
-
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/src/img/favicon/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png" />
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="src/css/style.css">
+		<link rel="stylesheet" href="src/css/core.css" />
 		<!-- Script -->
 		<script src="src/js/script.js" defer></script>
 	</head>
 	<body>
-    <div class="card">
-      <div class="container">
-        <div class="title">Total Bill</div>
-        <div class="input-container">
-          <div class="dollar-sign">&dollar;</div>
-          <input type="text" class="input total-bill-input" id="total-bill-input" placeholder="0.00"/>
-        </div>
-      </div>
-      <div class="container">
-        <div class="title">Tip</div>
-        <div class="input-container">
-          <div class="dollar-sign">&percnt;</div>
-          <input type="text" class="input total-bill-input" id="total-tip-input" placeholder="10"/>
-        </div>
-      </div>
-      <div class="split container">
-        <div class="title">Number of People</div>
-        <div class="controls">
-            <div class="button-container">
-                <button class="split-button">
-                    
-                </button>
-            </div>
-        </div>
-      </div>
-    </div>
-  </body>
+		<main class="main">
+			<div class="card">
+				<div class="container tb-con">
+					<div class="title">
+						Total Bill
+						<span class="dollar-sign">(₱)</span>
+					</div>
+					<div class="input-container">
+						<input type="number" class="input total-bill-input" id="total-bill-input" placeholder="0.00" />
+					</div>
+				</div>
+				<div class="container tip-con">
+					<div class="title">
+						Tip
+						<span class="dollar-sign">(&percnt;)</span>
+					</div>
+					<div class="input-container">
+						<input type="number" class="input total-tip-input" id="total-tip-input" placeholder="10" />
+					</div>
+				</div>
+				<div class="container">
+					<div class="split-title">People</div>
+					<div class="controls">
+						<div class="split button-container">
+							<button class="split-button" onclick="numOfPeople.increasePeople()">&plus;</button>
+						</div>
+						<div class="split split-amount">
+							<span class="num-people"> 1 </span>
+						</div>
+						<div class="split button-container">
+							<button class="split-button" onclick="numOfPeople.decreasePeople()">&minus;</button>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="title">Total Per Person</div>
+					<div class="total-per-person font-lg">₱ <span class="total">0.00</span></div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
