@@ -45,14 +45,12 @@
 <!-- Preview Section Section -->
 <div align="center">
   <h4>
-    🖼 Preview (Click image to visit page.)
+    🖼 Preview
   </h4>
 </div>
 
 <div align="center">
-  <a href="https://ynoecode.github.io/tip-calculator/">
     <img src="https://i.imgur.com/tlo5ubj.png" alt="Web Preview"/>
-  </a>
 </div>
 <br />
 
