@@ -21,7 +21,7 @@
 }
 
 body {
-  background: url('/src/img/bg/bg.jpg');
+  background: url('bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Poppins", "sans-serif";
